@@ -1,5 +1,4 @@
 [![pypi](https://img.shields.io/pypi/v/AnimatedWordCloud.svg)](https://pypi.python.org/pypi/AnimatedWordCloud)
-[![python](https://img.shields.io/pypi/pyversions/AnimatedWordCloud.svg)](https://pypi.python.org/pypi/AnimatedWordCloud)
 [![License: MIT](https://badgen.net/badge/license/apache-2-0/blue)]([https://opensource.org/licenses/MIT](https://opensource.org/license/apache-2-0/))
 
 
@@ -9,12 +8,6 @@
 Classic word cloud graph does not consider the time variation in text data. Animated word cloud improves on this and displays text datasets collected over multiple periods in a single MP4 file.
 The core framework for the animation of word frequencies was developed by Michael Cane in the [WordsSwarm](https://github.com/thisIsMikeKane/WordSwarm) project. **AnimatedWordCloud** makes 
 the codes efficiently work on various text datasets of the Latin alphabet languages.
-
-It reads dates in:
-
-* **US-style**: *MM/DD/YYYY* (2013-12-31, Feb-09-2009, 2013-12-31 11:46:17, etc.)
-* **European-style**: *DD/MM/YYYY* (2013-31-12, 09-Feb-2009, 2013-31-12 11:46:17, etc.) date and datetime formats.
-
 
 ## Installation
 
@@ -26,6 +19,9 @@ To install using pip, use:
 
 `pip install AnimatedWordCloud`
 
+
+AnimatedWordCloud has been tested with **PyCharm** community ed. It's recommended to use this IDE and run .py files instead .ipynb.
+
 ## Usage
 
 * **Import the library**:
@@ -36,16 +32,23 @@ from AnimatedWordCloud import animated_word_cloud
 
 * **Generate frames:**
 
-**animated_word_cloud** generates 90 png word cloud images per period. It scales word frequencies to display word clouds on text datasets of different sizes. Frames are stored in the working directory in the newly created *.post_processing/frames*  folder. It currently provides unigram frequencies (n-gram of order one or just words). Bigram frequencies will be added later.
+**animated_word_cloud** generates 90 png word cloud images per period. It scales word frequencies to display word clouds on text datasets of different sizes. Frames are stored in the working directory in the newly created *.post_processing/frames*  folder. It currently provides unigram frequencies (bigram frequencies will be added later). It reads dates in:
+
+* **US-style**: *MM/DD/YYYY* (2013-12-31, Feb-09-2009, 2013-12-31 11:46:17, etc.)
+* **European-style**: *DD/MM/YYYY* (2013-31-12, 09-Feb-2009, 2013-31-12 11:46:17, etc.) date and datetime formats.
+
+
+It automatically cleans data from punctuation and numbers on input. It can also remove the standard list(s) of stopwods for languages in the [NLTK](https://www.nltk.org) corpus of stopwords.
 
 
 ``` python
 def animated_word_cloud(text: str,         # Text
                         time: str,         # Time
                         date_format: str,  # Date format: 'eur' - European, 'us' - American
-                        ngram: int = '',   # N-gram order, 1 = unigram     
-                        freq: str = '',    # Aggregation period: 'Y'/'M'
+                        ngram: int,        # N-gram order, 1 = unigram     
+                        freq: str ,        # Aggregation period: 'Y'/'M'
                         stopwords: [],     # Languages for stop words
+                        skip: []           # Remove additional stop words 
 ) 
 ```
 
@@ -63,21 +66,22 @@ animated_word_cloud(text = data['text'],                         # Read text col
                     date_format = 'us',                          # Specify date format
                     ngram = 1,                                   # Show individual word frequencies
                     freq ='Y',                                   # Yearly frequency
-                    stopwords = ['english', 'german','french'])  # Clean from English, German and French stop words
+                    stopwords = ['english', 'german','french'],  # Clean from English, German and French stop words
+                    skip = ['good', 'bad','yellow'])             # Remove 'good', 'bad', and 'yellow' as additional stop words                                                               
 
 ```
 
 
 * **Create video from frames:**
 
-Download *ffmpeg* folder and the *frames2video.bat* file from [here](https://github.com/PetrKorab/AnimatedWordCloud/tree/main/postprocessing) and place them into the *postprocessing* folder.  Next, run *frames2video.bat*, which will generate an *animated_word_cloud.mp4* file, which is the desired output.
+Download the *ffmpeg* folder and the *frames2video.bat* file from [here](https://github.com/thisIsMikeKane/WordSwarm/tree/master/3-Postprocessing) and place them into the *postprocessing* folder.  Next, run *frames2video.bat*, which will generate a *wordSwarmOut.mp4* file, which is the desired output.
 
 [![AnimatedWordCloud](https://github.com/PetrKorab/AnimatedWordCloud/raw/main/screenshot_awc.png)](https://github.com/PetrKorab/AnimatedWordCloud)
 
 
 ## Documentation, examples and tutorials
 
-* Read the documentation: TBA
+> [Data Storytelling with Animated Word Clouds](https://towardsdatascience.com/data-storytelling-with-animated-word-clouds-1889fdeb97b8) 
 
 * For more examples of coding, read these  tutorials: TBA
 
@@ -85,7 +89,7 @@ Here are examples of animated word clouds:
 
 > Research trends in Economics [Youtube](https://www.youtube.com/watch?v=-2gH7Xfn0AI&t=10s)
 
-> European Central Bankers' speeches Youtube
+> European Central Bankers' speeches [Youtube](https://www.youtube.com/watch?v=oOgEpGtsJaI)
 
 ---
 
