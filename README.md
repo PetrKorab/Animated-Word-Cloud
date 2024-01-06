@@ -81,9 +81,9 @@ Download the *ffmpeg* folder and the *frames2video.bat* file from [here](https:/
 
 ## Documentation, examples and tutorials
 
-> [Data Storytelling with Animated Word Clouds](https://towardsdatascience.com/data-storytelling-with-animated-word-clouds-1889fdeb97b8) 
+* For more examples of coding, read these  tutorials:
 
-* For more examples of coding, read these  tutorials: TBA
+> [Data Storytelling with Animated Word Clouds](https://medium.com/towards-data-science/data-storytelling-with-animated-word-clouds-1889fdeb97b8?sk=fc0435e61392f6aad2ec32133600ecf1) 
 
 Here are examples of animated word clouds:
 
