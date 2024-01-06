@@ -6,7 +6,7 @@
 **Animated version of classic word cloud for time-series text data**
 
 Classic word cloud graph does not consider the time variation in text data. Animated word cloud improves on this and displays text datasets collected over multiple periods in a single MP4 file.
-The core framework for the animation of word frequencies was developed by Michael Cane in the [WordsSwarm](https://github.com/thisIsMikeKane/WordSwarm) project. **AnimatedWordCloud** makes 
+The core framework for the animation of word frequencies was developed by Michael Kane in the [WordsSwarm](https://github.com/thisIsMikeKane/WordSwarm) project. **AnimatedWordCloud** makes 
 the codes efficiently work on various text datasets of the Latin alphabet languages.
 
 ## Installation
