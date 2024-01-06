@@ -11,7 +11,7 @@ the codes efficiently work on various text datasets of the Latin alphabet langua
 
 ## Installation
 
-It requires *Python 3.8*, [Box2D](https://pypi.org/project/Box2D), [beautifulsoup4](https://pypi.org/project/beautifulsoup4),
+It requires **Python 3.8**, [Box2D](https://pypi.org/project/Box2D), [beautifulsoup4](https://pypi.org/project/beautifulsoup4),
 [pygame](https://pypi.org/project/pygame), [PyQt6](https://pypi.org/project/PyQt6) - visualization,
 [Arabica](https://pypi.org/project/Arabica/) and [ftfy ](https://pypi.org/project/ftfy) for text preprocessing. 
 
