@@ -85,11 +85,11 @@ Download the *ffmpeg* folder and the *frames2video.bat* file from [here](https:/
 
 > [Data Storytelling with Animated Word Clouds](https://medium.com/towards-data-science/data-storytelling-with-animated-word-clouds-1889fdeb97b8?sk=fc0435e61392f6aad2ec32133600ecf1) 
 
-Here are examples of animated word clouds:
+* Here are examples of animated word clouds:
 
-> Research trends in Economics [Youtube](https://www.youtube.com/watch?v=-2gH7Xfn0AI&t=10s)
+> [Research trends in Economics](https://www.youtube.com/watch?v=-2gH7Xfn0AI&t=10s)
 
-> European Central Bankers' speeches [Youtube](https://www.youtube.com/watch?v=oOgEpGtsJaI)
+> [European Central Bankers' speeches](https://www.youtube.com/watch?v=oOgEpGtsJaI)
 
 ---
 
