@@ -45,7 +45,7 @@ It automatically cleans data from punctuation and numbers on input. It can also 
 def animated_word_cloud(text: str,         # Text
                         time: str,         # Time
                         date_format: str,  # Date format: 'eur' - European, 'us' - American
-                        ngram: int,        # N-gram order, 1 = unigram     
+                        ngram: int,        # N-gram order, 1 = unigram, 2 = bigram     
                         freq: str ,        # Aggregation period: 'Y'/'M'
                         stopwords: [],     # Languages for stop words
                         skip: []           # Remove additional stop words 
@@ -87,9 +87,11 @@ Download the *ffmpeg* folder and the *frames2video.bat* file from [here](https:/
 
 * Here are examples of animated word clouds:
 
-> [Research trends in Economics](https://www.youtube.com/watch?v=-2gH7Xfn0AI&t=10s)
+> [Research Trends in Economics](https://www.youtube.com/watch?v=-2gH7Xfn0AI&t=51s)
 
-> [European Central Bankers' speeches](https://www.youtube.com/watch?v=oOgEpGtsJaI)
+> [Amazon Dog Food Reviews](https://www.youtube.com/watch?v=gaqLaRwEAR8)
+
+> [European Central Bankers' speeches](https://www.youtube.com/watch?v=oOgEpGtsJaI) 
 
 ---
 
