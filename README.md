@@ -32,7 +32,7 @@ from AnimatedWordCloud import animated_word_cloud
 
 * **Generate frames:**
 
-**animated_word_cloud** generates 90 png word cloud images per period. It scales word frequencies to display word clouds on text datasets of different sizes. Frames are stored in the working directory in the newly created *.post_processing/frames*  folder. It currently provides unigram frequencies (bigram frequencies will be added later). It reads dates in:
+**animated_word_cloud** generates 200 png word cloud images per period. It scales word frequencies to display word clouds on text datasets of different sizes. Frames are stored in the working directory in the newly created *.post_processing/frames*  folder. It currently provides unigram frequencies (bigram frequencies will be added later). It reads dates in:
 
 * **US-style**: *MM/DD/YYYY* (2013-12-31, Feb-09-2009, 2013-12-31 11:46:17, etc.)
 * **European-style**: *DD/MM/YYYY* (2013-31-12, 09-Feb-2009, 2013-31-12 11:46:17, etc.) date and datetime formats.
