@@ -74,7 +74,7 @@ animated_word_cloud(text = data['text'],                         # Read text col
 
 * **Create video from frames:**
 
-Download the *ffmpeg* folder and the *frames2video.bat* file from [here](https://github.com/PetrKorab/Animated-Word-Cloud) and place them into the *postprocessing* folder.  Next, run *frames2video.bat*, which will generate a *wordSwarmOut.mp4* file, which is the desired output.
+Download the *ffmpeg* folder and the *frames2video.bat* file from [here](https://github.com/PetrKorab/Animated-Word-Cloud/blob/main/frames2video.bat) and place them into the *postprocessing* folder.  Next, run *frames2video.bat*, which will generate a *wordSwarmOut.mp4* file, which is the desired output.
 
 [![AnimatedWordCloud](https://github.com/PetrKorab/AnimatedWordCloud/raw/main/screenshot.png)](https://github.com/PetrKorab/AnimatedWordCloud)
 
