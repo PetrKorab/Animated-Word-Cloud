@@ -6,6 +6,12 @@ A collection of animations and tutorials created with AnimatedWordCloud.
 
 ## Video demos
 
+### Ethereum Engineering Group Meetings
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/BS3NFBlHV_g" frameborder="0" allowfullscreen></iframe>
+
+---
+
 ### Research Trends in Economics
 
 Word frequency trends extracted from academic economics papers over several decades.
