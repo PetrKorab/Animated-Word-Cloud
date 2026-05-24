@@ -41,6 +41,7 @@ nav:
   - Parameters: parameters.md
   - Output Files: output.md
   - Examples: examples.md
+  - Acknowledgements: acknowledgements.md
 
 markdown_extensions:
   - pymdownx.highlight:
