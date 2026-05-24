@@ -1,0 +1,66 @@
+site_name: AnimatedWordCloud
+site_description: Animated version of classic word cloud for time-series text data
+site_author: Petr Korab
+site_url: https://petrkorab.github.io/Animated-Word-Cloud/
+
+repo_url: https://github.com/PetrKorab/Animated-Word-Cloud
+repo_name: PetrKorab/Animated-Word-Cloud
+edit_uri: ""
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - content.code.copy
+    - content.code.annotate
+    - search.highlight
+    - search.suggest
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Usage: usage.md
+  - Parameters: parameters.md
+  - Output Files: output.md
+  - Examples: examples.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/PetrKorab/Animated-Word-Cloud
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/AnimatedWordCloud/
