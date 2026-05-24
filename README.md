@@ -170,78 +170,12 @@ The statistics sheet includes:
 - Normalization coefficient
 
 
-* **Create video from frames:**
 
-Download the *ffmpeg* folder from [here](https://github.com/PetrKorab/Animated-Word-Cloud/tree/main/ffmpeg) and the *frames2video.bat* file from [here](https://github.com/PetrKorab/Animated-Word-Cloud/blob/main/frames2video.bat) and place them into the *postprocessing* folder. Next, run *frames2video.bat*, which will generate a video file with your specified title (e.g., `my_word_cloud.mp4`). The video combines all generated frames into a smooth animation showing word frequency evolution over time.
-
-[![AnimatedWordCloud](https://github.com/PetrKorab/AnimatedWordCloud/raw/main/screenshot.png)](https://github.com/PetrKorab/AnimatedWordCloud)
-
-## Best Practices and Tips
-
-### Performance Optimization:
-- **Large Datasets**: For datasets with >10,000 entries, consider using `max_words=50-100` to reduce processing time
-- **Frame Count**: Use `frames=60-80` for a good balance between smoothness and rendering speed. Higher values (100+) create smoother animations but take longer to process
-- **Monthly vs Yearly**: Monthly frequency (`freq='M'`) works best for datasets spanning 1-3 years. For longer time periods, use yearly frequency (`freq='Y'`)
-
-### Data Quality:
-- **Clean Input Data**: Remove HTML tags, URLs, and special formatting before processing
-- **Encoding Issues**: If you see garbled characters, set `fix_encoding=True` to automatically correct them
-- **Missing Data**: The function automatically handles missing values (NaN) by dropping them
-
-### Visualization Tips:
-- **Color Selection**: Use `color='black'` for modern/tech presentations, `color='white'` for academic/professional settings
-- **Bigrams vs Unigrams**: Start with unigrams (`ngram=1`) to understand overall themes, then use bigrams (`ngram=2`) for deeper phrase-level analysis
-- **Stopwords**: Always specify relevant stopword languages to remove common words that don't add analytical value
-
-### Troubleshooting:
-- **Low Word Frequencies**: If words appear too small, the function will automatically scale them up (minimum threshold: 20-25)
-- **High Word Frequencies**: Extremely common words are automatically clipped to prevent dominating the visualization
-- **Date Format Errors**: Ensure your date column matches the specified `date_format` ('eur' or 'us')
-
-## Recent Updates and Enhancements
-
-This version includes several significant improvements:
-
-### New Features:
-- **Bigram Support**: Full implementation of two-word phrase analysis (ngram=2)
-- **Color Themes**: Choice between black and white background color schemes
-- **Custom Frame Rate**: Adjustable frames per period for smoother or faster animations
-- **Max Words Control**: Specify the maximum number of words/bigrams to display
-- **Custom Titles**: Define custom video filenames and titles
-- **Encoding Fixes**: Automatic correction of text encoding issues using ftfy
-
-### Preprocessing Enhancements:
-- **Optional Number Removal**: Control whether numbers are kept or removed from text
-- **Optional Punctuation Removal**: Control whether punctuation is kept or removed
-- **Enhanced Punctuation Handling**: Better processing of em-dashes, en-dashes, and special characters
-- **Automatic Frequency Normalization**: Intelligent scaling of word frequencies for optimal visualization
-- **Frequency Clipping**: Prevents over-representation of extremely common words
-
-### Data Export:
-- **Statistics Generation**: Detailed Excel files with normalization statistics
-- **Before/After Comparison**: Separate files showing frequency data before and after processing
-- **Multi-Sheet Excel Output**: Includes both data and statistics in organized sheets
-
-### Technical Improvements:
-- **Better Date Handling**: Enhanced parsing of various date formats
-- **Improved Memory Management**: More efficient processing of large datasets
-- **Debug Output**: Detailed console logging for troubleshooting
-- **Error Handling**: Better validation and error messages
 
 
 ## Documentation, examples and tutorials
 
-* For more examples of coding, read these  tutorials:
-
-> [Data Storytelling with Animated Word Clouds](https://medium.com/towards-data-science/data-storytelling-with-animated-word-clouds-1889fdeb97b8?sk=fc0435e61392f6aad2ec32133600ecf1) 
-
-* Here are examples of animated word clouds:
-
-> [Research Trends in Economics](https://www.youtube.com/watch?v=-2gH7Xfn0AI&t=51s)
-
-> [Amazon Dog Food Reviews](https://www.youtube.com/watch?v=gaqLaRwEAR8)
-
-> [European Central Bankers' speeches](https://www.youtube.com/watch?v=oOgEpGtsJaI) 
+* For more examples of coding, read the Docs
 
 ---
 
