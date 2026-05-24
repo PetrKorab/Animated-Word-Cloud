@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- Python **3.8** or higher
+- Python **3.8** (3.8.x only)
 - Windows (the bundled `ffmpeg.exe` and `frames2video.bat` are Windows binaries)
 
 ---
