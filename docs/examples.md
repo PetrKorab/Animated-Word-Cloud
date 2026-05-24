@@ -12,14 +12,6 @@ A collection of animations and tutorials created with AnimatedWordCloud.
 
 ---
 
-### Research Trends in Economics
-
-Word frequency trends extracted from academic economics papers over several decades.
-
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/-2gH7Xfn0AI?start=51" frameborder="0" allowfullscreen></iframe>
-
----
-
 ### Amazon Dog Food Reviews
 
 Customer review language evolution from Amazon product reviews.
@@ -33,6 +25,14 @@ Customer review language evolution from Amazon product reviews.
 Monthly animated word cloud of ECB press conference transcripts, tracking shifts in monetary policy language.
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/oOgEpGtsJaI" frameborder="0" allowfullscreen></iframe>
+
+---
+
+### Research Trends in Economics
+
+Word frequency trends extracted from academic economics papers over several decades.
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/-2gH7Xfn0AI?start=51" frameborder="0" allowfullscreen></iframe>
 
 ---
 
