@@ -11,15 +11,7 @@ the codes efficiently work on various text datasets of the Latin alphabet langua
 
 ## Installation
 
-It requires **Python 3.8**, with the following dependencies:
-- [pygame](https://pypi.org/project/pygame) 2.5.0+ - for visualization and animation
-- [Box2D](https://pypi.org/project/Box2D) 2.3.10+ - for physics-based word movement
-- [Arabica](https://pypi.org/project/Arabica/) 1.7.7+ - for text preprocessing and n-gram extraction
-- [ftfy](https://pypi.org/project/ftfy) 6.1.1+ - for fixing text encoding issues
-- [streamlit](https://pypi.org/project/streamlit) 1.37.0+ - for optional web interface
-- [openpyxl](https://pypi.org/project/openpyxl) 3.1.5+ - for Excel file export 
-
-To install the package using pip, use:
+It requires **Python 3.8** To install the package using pip, use:
 
 `pip install AnimatedWordCloud`
 
