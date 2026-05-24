@@ -66,15 +66,6 @@ The output MP4 is saved to `postprocessing/my_word_cloud.mp4`.
 
 ---
 
-## Examples
-
-- [Research Trends in Economics](https://www.youtube.com/watch?v=-2gH7Xfn0AI&t=51s)
-- [Amazon Dog Food Reviews](https://www.youtube.com/watch?v=gaqLaRwEAR8)
-- [European Central Bankers' Speeches](https://www.youtube.com/watch?v=oOgEpGtsJaI)
-- [Tutorial: Data Storytelling with Animated Word Clouds](https://medium.com/towards-data-science/data-storytelling-with-animated-word-clouds-1889fdeb97b8)
-
----
-
 ## Links
 
 - [GitHub repository](https://github.com/PetrKorab/Animated-Word-Cloud)
