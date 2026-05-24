@@ -1,0 +1,36 @@
+# Build artefacts
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Test run directories
+test_*/
+test_autoDL/
+test_fresh/
+
+# Generated video / frames
+postprocessing/frames/
+*.mp4
+
+# Large example datasets folder (kept locally only)
+example datasets/postprocessing/
+example datasets/matrix.csv
+example datasets/bigram_*.xlsx
+example datasets/words_*.xlsx
+example datasets/tests_executed.ipynb
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+*.iml
+
+# Credentials
+credentials/
