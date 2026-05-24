@@ -10,7 +10,7 @@ A collection of animations and tutorials created with AnimatedWordCloud.
 
 Word frequency trends extracted from academic economics papers over several decades.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=-2gH7Xfn0AI&t=51s){ .md-button }
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/-2gH7Xfn0AI?start=51" frameborder="0" allowfullscreen></iframe>
 
 ---
 
@@ -18,7 +18,7 @@ Word frequency trends extracted from academic economics papers over several deca
 
 Customer review language evolution from Amazon product reviews.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=gaqLaRwEAR8){ .md-button }
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/gaqLaRwEAR8" frameborder="0" allowfullscreen></iframe>
 
 ---
 
@@ -26,7 +26,7 @@ Customer review language evolution from Amazon product reviews.
 
 Monthly animated word cloud of ECB press conference transcripts, tracking shifts in monetary policy language.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=oOgEpGtsJaI){ .md-button }
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/oOgEpGtsJaI" frameborder="0" allowfullscreen></iframe>
 
 ---
 
