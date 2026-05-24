@@ -145,12 +145,8 @@ The statistics sheet includes:
 - Actual word count
 - Normalization coefficient
 
-
-
-
-
 ## Documentation, examples and tutorials
-* For more examples of coding, read the Docs [Docs]([https://pypi.org/project/pygame](https://petrkorab.github.io/Animated-Word-Cloud/)) 
+* For more examples of coding, read the [Docs](https://petrkorab.github.io/Animated-Word-Cloud)
 
 ---
 
