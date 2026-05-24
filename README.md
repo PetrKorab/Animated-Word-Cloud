@@ -11,7 +11,7 @@ the codes efficiently work on various text datasets of the Latin alphabet langua
 
 ## Installation
 
-It requires **Python 3.8+**, with the following dependencies:
+It requires **Python 3.8**, with the following dependencies:
 - [pygame](https://pypi.org/project/pygame) 2.5.0+ - for visualization and animation
 - [Box2D](https://pypi.org/project/Box2D) 2.3.10+ - for physics-based word movement
 - [Arabica](https://pypi.org/project/Arabica/) 1.7.7+ - for text preprocessing and n-gram extraction
@@ -174,8 +174,7 @@ The statistics sheet includes:
 
 
 ## Documentation, examples and tutorials
-
-* For more examples of coding, read the Docs
+* For more examples of coding, read the Docs [Docs]([https://pypi.org/project/pygame](https://petrkorab.github.io/Animated-Word-Cloud/)) 
 
 ---
 
