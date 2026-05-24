@@ -11,7 +11,7 @@ the codes efficiently work on various text datasets of the Latin alphabet langua
 
 ## Installation
 
-It requires **Python 3.8** To install the package using pip, use:
+It requires **Python 3.8**. To install the package using pip, use:
 
 `pip install AnimatedWordCloud`
 
