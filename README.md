@@ -15,22 +15,6 @@ It requires **Python 3.8**. To install the package using pip, use:
 
 `pip install AnimatedWordCloud`
 
-For development version (this repository), install dependencies:
-
-`pip install -r requirements.txt`
-
-The required dependencies are:
-```
-streamlit==1.37.0
-pygame==2.5.0
-ftfy==6.1.1
-arabica==1.7.7
-Box2D==2.3.10
-openpyxl==3.1.5
-```
-
-AnimatedWordCloud has been tested with **PyCharm** community ed. and VS Code. It's recommended to use a Python IDE and run .py files instead of .ipynb notebooks for better performance.
-
 ## Usage
 
 * **Import the library**:
