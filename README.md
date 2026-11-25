@@ -9,6 +9,8 @@ Classic word cloud graph does not consider the time variation in text data. Anim
 The core framework for the animation of word frequencies was developed by Michael Kane in the [WordsSwarm](https://github.com/thisIsMikeKane/WordSwarm) project. **AnimatedWordCloud** makes 
 the codes efficiently work on various text datasets of the Latin alphabet languages.
 
+An example is provided in [this towardsdatascience article](https://towardsdatascience.com/data-storytelling-with-animated-word-clouds-1889fdeb97b8/).
+
 ## Installation
 
 It requires **Python 3.8**. To install the package using pip, use:
